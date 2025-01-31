@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		33B654D62D4C739000EA3ADB /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 33B654D52D4C739000EA3ADB /* DesignSystem */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		33B654892D4C697600EA3ADB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33B654D62D4C739000EA3ADB /* DesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 				33B6547A2D4C697500EA3ADB /* TrendMe */,
 				33B6548B2D4C697600EA3ADB /* TrendMeTests */,
 				33B654952D4C697600EA3ADB /* TrendMeUITests */,
+				33B654D42D4C739000EA3ADB /* Frameworks */,
 				33B654792D4C697500EA3ADB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +96,13 @@
 				33B654922D4C697600EA3ADB /* TrendMeUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		33B654D42D4C739000EA3ADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +125,7 @@
 			);
 			name = TrendMe;
 			packageProductDependencies = (
+				33B654D52D4C739000EA3ADB /* DesignSystem */,
 			);
 			productName = TrendMe;
 			productReference = 33B654782D4C697500EA3ADB /* TrendMe.app */;
@@ -195,6 +209,9 @@
 			);
 			mainGroup = 33B6546F2D4C697500EA3ADB;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				33B654D32D4C72BB00EA3ADB /* XCLocalSwiftPackageReference "DesignSystem" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 33B654792D4C697500EA3ADB /* Products */;
 			projectDirPath = "";
@@ -399,6 +416,7 @@
 				DEVELOPMENT_TEAM = 5H277L84SS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +446,7 @@
 				DEVELOPMENT_TEAM = 5H277L84SS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -558,6 +577,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		33B654D32D4C72BB00EA3ADB /* XCLocalSwiftPackageReference "DesignSystem" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = DesignSystem;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		33B654D52D4C739000EA3ADB /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33B654D32D4C72BB00EA3ADB /* XCLocalSwiftPackageReference "DesignSystem" */;
+			productName = DesignSystem;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 33B654702D4C697500EA3ADB /* Project object */;
 }
