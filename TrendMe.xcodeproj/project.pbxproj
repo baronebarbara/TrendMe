@@ -10,6 +10,7 @@
 		33B654D62D4C739000EA3ADB /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 33B654D52D4C739000EA3ADB /* DesignSystem */; };
 		33B655062D50658C00EA3ADB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 33B655052D50658C00EA3ADB /* FirebaseFirestore */; };
 		33B655082D50658C00EA3ADB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 33B655072D50658C00EA3ADB /* FirebaseStorage */; };
+		33B6550A2D5066F700EA3ADB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33B655092D5066F700EA3ADB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		33B654782D4C697500EA3ADB /* TrendMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B654882D4C697600EA3ADB /* TrendMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B654922D4C697600EA3ADB /* TrendMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B655092D5066F700EA3ADB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -89,6 +91,7 @@
 				33B654952D4C697600EA3ADB /* TrendMeUITests */,
 				33B654D42D4C739000EA3ADB /* Frameworks */,
 				33B654792D4C697500EA3ADB /* Products */,
+				33B655092D5066F700EA3ADB /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -236,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33B6550A2D5066F700EA3ADB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
