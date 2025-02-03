@@ -1,0 +1,11 @@
+xcassets:
+  inputs:
+    - Sources/DesignSystem/Resources/Colors.xcassets
+    - Sources/DesignSystem/Resources/Icons.xcassets
+  outputs:
+    - templateName: swift5
+      params:
+        forceProvidesNamespaces: true
+        publicAccess: true
+      output: Sources/DesignSystem/Generated/Assets.swift
+      verbose: true

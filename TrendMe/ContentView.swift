@@ -1,3 +1,4 @@
+import DesignSystem
 import SwiftUI
 
 struct HomeView: View {
@@ -12,6 +13,7 @@ struct HomeView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.leading, 24)
                 HStack(alignment: .center,spacing: 36) {
+                    Image(asset: Asset.Icons.icCasual)
                     Text("Casual")
                     Text("Formal")
                     Text("Street")
