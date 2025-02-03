@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		33B654D62D4C739000EA3ADB /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 33B654D52D4C739000EA3ADB /* DesignSystem */; };
+		33B655062D50658C00EA3ADB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 33B655052D50658C00EA3ADB /* FirebaseFirestore */; };
+		33B655082D50658C00EA3ADB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 33B655072D50658C00EA3ADB /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				33B654D62D4C739000EA3ADB /* DesignSystem in Frameworks */,
+				33B655062D50658C00EA3ADB /* FirebaseFirestore in Frameworks */,
+				33B655082D50658C00EA3ADB /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +130,8 @@
 			name = TrendMe;
 			packageProductDependencies = (
 				33B654D52D4C739000EA3ADB /* DesignSystem */,
+				33B655052D50658C00EA3ADB /* FirebaseFirestore */,
+				33B655072D50658C00EA3ADB /* FirebaseStorage */,
 			);
 			productName = TrendMe;
 			productReference = 33B654782D4C697500EA3ADB /* TrendMe.app */;
@@ -211,6 +217,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				33B654D32D4C72BB00EA3ADB /* XCLocalSwiftPackageReference "DesignSystem" */,
+				33B655042D50658C00EA3ADB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 33B654792D4C697500EA3ADB /* Products */;
@@ -585,11 +592,32 @@
 		};
 /* End XCLocalSwiftPackageReference section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		33B655042D50658C00EA3ADB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		33B654D52D4C739000EA3ADB /* DesignSystem */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 33B654D32D4C72BB00EA3ADB /* XCLocalSwiftPackageReference "DesignSystem" */;
 			productName = DesignSystem;
+		};
+		33B655052D50658C00EA3ADB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33B655042D50658C00EA3ADB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		33B655072D50658C00EA3ADB /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33B655042D50658C00EA3ADB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
